@@ -1,0 +1,49 @@
+{
+  "name": "hapi.js-in-action",
+  "version": "1.0.0",
+  "description": "hapi.js in Action",
+  "private": true,
+  "scripts": {
+    "lint": "npm run lint-ch1; npm run lint-ch2; npm run lint-ch3; npm run lint-ch4; npm run lint-ch5; npm run lint-ch6; npm run lint-ch7; npm run lint-ch8; npm run lint-ch9; npm run lint-ch10; npm run lint-ch11; npm run lint-tests",
+    "lint-ch1": "eslint -c .eslintrc --ignore-pattern **/node_modules 'CH01 - Introducing hapi'",
+    "lint-ch2": "eslint -c .eslintrc --ignore-pattern **/node_modules 'CH02 - Building an API'",
+    "lint-ch3": "eslint -c .eslintrc --ignore-pattern **/node_modules 'CH03 - Building a Website'",
+    "lint-ch4": "eslint -c .eslintrc --ignore-pattern **/node_modules 'CH04 - Routes and Handlers in Depth'",
+    "lint-ch5": "eslint -c .eslintrc --ignore-pattern **/node_modules 'CH05 - Understanding Requests and Responses'",
+    "lint-ch6": "eslint -c .eslintrc --ignore-pattern **/node_modules 'CH06 - Validation with Joi'",
+    "lint-ch7": "eslint -c .eslintrc --ignore-pattern **/node_modules 'CH07 - Creating Modular Applications with Plugins'",
+    "lint-ch8": "eslint -c .eslintrc --ignore-pattern **/node_modules 'CH08 - Leveraging Caching'",
+    "lint-ch9": "eslint -c .eslintrc --ignore-pattern **/node_modules 'CH09 - Authentication and Security'",
+    "lint-ch10": "eslint -c .eslintrc --ignore-pattern **/node_modules 'CH10 - Testing with Lab'",
+    "lint-ch11": "eslint -c .eslintrc --ignore-pattern **/node_modules 'CH11 - hapi in Production'",
+    "lint-tests": "eslint -c .eslintrc --ignore-pattern **/node_modules 'test'",
+    "test-ci": "npm run lint && npm test",
+    "test": "lab -m 60000",
+    "version-checker": "node scripts/version-checker"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtharrison/hapi.js-in-action.git"
+  },
+  "author": "Matt Harrison <hi@matt-harrison.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/mtharrison/hapi.js-in-action/issues"
+  },
+  "homepage": "https://github.com/mtharrison/hapi.js-in-action#readme",
+  "devDependencies": {
+    "code": "2.x.x",
+    "dotenv": "2.x.x",
+    "eslint": "2.x.x",
+    "eslint-config-hapi": "9.x.x",
+    "eslint-plugin-hapi": "4.x.x",
+    "lab": "10.x.x",
+    "redis": "^2.4.2",
+    "form-data": "^0.2.0",
+    "glob": "7.x.x",
+    "items": "2.x.x",
+    "lodash": "4.x.x",
+    "rethinkdb": "2.3.x",
+    "wreck": "7.x.x"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "11.1.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "boom": "3.x.x",
+    "good": "6.x.x",
+    "good-console": "5.x.x",
+    "hapi": "13.x.x"
+  }
+}

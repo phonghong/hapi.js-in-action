@@ -1,0 +1,17 @@
+{
+  "name": "10.3",
+  "description": "A well tested piece of software",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "lab -c"
+  },
+  "devDependencies": {
+    "lab": "10.x.x"
+  },
+  "dependencies": {
+    "code": "2.x.x",
+    "hapi": "13.x.x",
+    "inert": "3.x.x",
+    "joi": "8.x.x"
+  }
+}

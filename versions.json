@@ -1,0 +1,390 @@
+{
+  "CH01 - Introducing hapi": {
+    "normal": {
+      "hapi": [
+        "13.x.x"
+      ],
+      "good": [
+        "6.x.x"
+      ],
+      "good-console": [
+        "5.x.x"
+      ]
+    },
+    "dev": {}
+  },
+  "CH02 - Building an API": {
+    "normal": {
+      "hapi": [
+        "13.x.x"
+      ],
+      "sqlite3": [
+        "3.1.x"
+      ],
+      "hapi-auth-bearer-token": [
+        "4.x.x"
+      ]
+    },
+    "dev": {}
+  },
+  "CH03 - Building a Website": {
+    "normal": {
+      "dindin-api": [
+        "2.x.x"
+      ],
+      "hapi": [
+        "13.x.x"
+      ],
+      "inert": [
+        "3.x.x"
+      ],
+      "handlebars": [
+        "4.0.x"
+      ],
+      "vision": [
+        "4.x.x"
+      ],
+      "wreck": [
+        "7.x.x"
+      ],
+      "hapi-auth-cookie": [
+        "6.x.x"
+      ]
+    },
+    "dev": {}
+  },
+  "CH04 - Routes and Handlers in Depth": {
+    "normal": {
+      "hapi": [
+        "13.x.x"
+      ],
+      "handlebars": [
+        "4.0.x"
+      ],
+      "vision": [
+        "4.x.x"
+      ],
+      "accept": [
+        "2.x.x"
+      ],
+      "inert": [
+        "3.x.x"
+      ]
+    },
+    "dev": {}
+  },
+  "CH05 - Understanding Requests and Responses": {
+    "normal": {
+      "boom": [
+        "3.x.x"
+      ],
+      "hapi": [
+        "13.x.x"
+      ],
+      "netmask": [
+        "1.0.x"
+      ],
+      "wreck": [
+        "7.x.x"
+      ],
+      "handlebars": [
+        "4.0.x"
+      ],
+      "joi": [
+        "8.x.x"
+      ],
+      "vision": [
+        "4.x.x"
+      ]
+    },
+    "dev": {}
+  },
+  "CH06 - Validation with Joi": {
+    "normal": {
+      "joi": [
+        "8.x.x"
+      ],
+      "hapi": [
+        "13.x.x"
+      ],
+      "handlebars": [
+        "4.0.x"
+      ],
+      "vision": [
+        "4.x.x"
+      ]
+    },
+    "dev": {}
+  },
+  "CH07 - Creating Modular Applications with Plugins": {
+    "normal": {
+      "boom": [
+        "3.x.x"
+      ],
+      "handlebars": [
+        "4.0.x"
+      ],
+      "hapi": [
+        "13.x.x"
+      ],
+      "joi": [
+        "8.x.x"
+      ],
+      "rethinkdb": [
+        "2.2.x"
+      ],
+      "vision": [
+        "4.x.x"
+      ],
+      "glue": [
+        "3.x.x"
+      ],
+      "confidence": [
+        "1.x.x"
+      ]
+    },
+    "dev": {}
+  },
+  "CH08 - Leveraging Caching": {
+    "normal": {
+      "hapi": [
+        "13.x.x"
+      ],
+      "inert": [
+        "3.x.x"
+      ],
+      "wreck": [
+        "7.x.x"
+      ],
+      "catbox": [
+        "7.x.x"
+      ],
+      "catbox-memory": [
+        "2.x.x"
+      ],
+      "catbox-redis": [
+        "1.x.x"
+      ],
+      "qs": [
+        "6.x.x"
+      ]
+    },
+    "dev": {}
+  },
+  "CH09 - Authentication and Security": {
+    "normal": {
+      "hapi": [
+        "13.x.x"
+      ],
+      "hapi-auth-basic": [
+        "4.x.x"
+      ],
+      "bell": [
+        "7.x.x"
+      ],
+      "handlebars": [
+        "4.0.x"
+      ],
+      "hapi-auth-cookie": [
+        "6.x.x"
+      ],
+      "vision": [
+        "4.x.x"
+      ],
+      "inert": [
+        "3.x.x"
+      ],
+      "crumb": [
+        "6.x.x"
+      ]
+    },
+    "dev": {}
+  },
+  "CH10 - Testing with Lab": {
+    "normal": {
+      "code": [
+        "2.x.x"
+      ],
+      "hapi": [
+        "13.x.x"
+      ],
+      "inert": [
+        "3.x.x"
+      ],
+      "joi": [
+        "8.x.x"
+      ],
+      "hapi-auth-basic": [
+        "4.x.x"
+      ],
+      "mongodb": [
+        "2.1.x"
+      ],
+      "sinon": [
+        "1.17.x"
+      ],
+      "proxyquire": [
+        "1.7.x"
+      ]
+    },
+    "dev": {
+      "lab": [
+        "10.x.x"
+      ]
+    }
+  },
+  "CH11 - hapi in Production": {
+    "normal": {
+      "hapi": [
+        "13.x.x"
+      ],
+      "boom": [
+        "3.x.x"
+      ],
+      "good": [
+        "6.x.x"
+      ],
+      "good-console": [
+        "5.x.x"
+      ],
+      "good-file": [
+        "5.x.x"
+      ],
+      "inert": [
+        "3.x.x"
+      ],
+      "joi": [
+        "8.x.x"
+      ],
+      "lout": [
+        "9.x.x"
+      ],
+      "vision": [
+        "4.x.x"
+      ],
+      "node-statsd": [
+        "0.1.x"
+      ],
+      "oppsy": [
+        "1.x.x"
+      ],
+      "poop": [
+        "2.x.x"
+      ],
+      "tv": [
+        "5.x.x"
+      ]
+    },
+    "dev": {}
+  },
+  "aggregate": {
+    "hapi": [
+      "13.x.x"
+    ],
+    "good": [
+      "6.x.x"
+    ],
+    "good-console": [
+      "5.x.x"
+    ],
+    "sqlite3": [
+      "3.1.x"
+    ],
+    "hapi-auth-bearer-token": [
+      "4.x.x"
+    ],
+    "dindin-api": [
+      "2.x.x"
+    ],
+    "inert": [
+      "3.x.x"
+    ],
+    "handlebars": [
+      "4.0.x"
+    ],
+    "vision": [
+      "4.x.x"
+    ],
+    "wreck": [
+      "7.x.x"
+    ],
+    "hapi-auth-cookie": [
+      "6.x.x"
+    ],
+    "accept": [
+      "2.x.x"
+    ],
+    "boom": [
+      "3.x.x"
+    ],
+    "netmask": [
+      "1.0.x"
+    ],
+    "joi": [
+      "8.x.x"
+    ],
+    "rethinkdb": [
+      "2.2.x"
+    ],
+    "glue": [
+      "3.x.x"
+    ],
+    "confidence": [
+      "1.x.x"
+    ],
+    "catbox": [
+      "7.x.x"
+    ],
+    "catbox-memory": [
+      "2.x.x"
+    ],
+    "catbox-redis": [
+      "1.x.x"
+    ],
+    "qs": [
+      "6.x.x"
+    ],
+    "hapi-auth-basic": [
+      "4.x.x"
+    ],
+    "bell": [
+      "7.x.x"
+    ],
+    "crumb": [
+      "6.x.x"
+    ],
+    "code": [
+      "2.x.x"
+    ],
+    "mongodb": [
+      "2.1.x"
+    ],
+    "sinon": [
+      "1.17.x"
+    ],
+    "proxyquire": [
+      "1.7.x"
+    ],
+    "lab": [
+      "10.x.x"
+    ],
+    "good-file": [
+      "5.x.x"
+    ],
+    "lout": [
+      "9.x.x"
+    ],
+    "node-statsd": [
+      "0.1.x"
+    ],
+    "oppsy": [
+      "1.x.x"
+    ],
+    "poop": [
+      "2.x.x"
+    ],
+    "tv": [
+      "5.x.x"
+    ]
+  }
+}

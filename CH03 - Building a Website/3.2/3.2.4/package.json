@@ -1,0 +1,18 @@
+{
+  "name": "3.2.4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "dindin-api": "2.x.x",
+    "handlebars": "4.0.x",
+    "hapi": "13.x.x",
+    "inert": "3.x.x",
+    "vision": "4.x.x"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "8.2.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "catbox": "7.x.x",
+    "catbox-memory": "2.x.x",
+    "wreck": "7.x.x"
+  }
+}
